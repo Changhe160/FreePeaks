@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Problem">
+      <UniqueIdentifier>{257d4a10-2580-4b6c-ba1e-55f6062323fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{23483f3a-883a-4119-bd90-1e8715a9d550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\CMAES">
+      <UniqueIdentifier>{7fa009df-0bab-457a-a69c-9c645067c72a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{3a41a338-a171-4479-a494-6ba789dd8d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{82cdd4ed-5b83-4cb4-a529-182570833f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random">
+      <UniqueIdentifier>{4f3ee115-95a2-4beb-b2b4-ea4cedc5ac91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Measure">
+      <UniqueIdentifier>{d3fa3042-f95f-4d7e-b0d4-e3dabfb2b614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\TypeList">
+      <UniqueIdentifier>{e3ff6d5f-2dac-4048-a7ba-bf4ac026df51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\TypeVar">
+      <UniqueIdentifier>{b864757c-22a9-4d58-b4d5-cc62795cd3a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{1544d63d-b953-4ba1-afff-cfcde24e9953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\MOEAD">
+      <UniqueIdentifier>{6316da0e-0446-4b18-a874-0961d2403827}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problem\FFreePeak_D_M_OnePeak.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\FFreePeak_D_OnePeak.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\FFreePeak_OnePeak.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\CMAES\cmaes.cpp">
+      <Filter>Algorithm\CMAES</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\matrix.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\myVector.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\boundaryCont.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Global\global.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Random\extreal.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Random\newran.cpp">
+      <Filter>Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Measure\mMultiModal.cpp">
+      <Filter>Measure</Filter>
+    </ClCompile>
+    <ClCompile Include="Measure\mMultiObj.cpp">
+      <Filter>Measure</Filter>
+    </ClCompile>
+    <ClCompile Include="Measure\mSingleObj.cpp">
+      <Filter>Measure</Filter>
+    </ClCompile>
+    <ClCompile Include="Measure\mSingleObjDyn.cpp">
+      <Filter>Measure</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\BenchmarkFunction.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\ContinuousProblem.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\FOnePeak.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\problem.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\FFreePeak_M_OnePeak.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TypeVar\arithmetic.cpp">
+      <Filter>Utility\TypeVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TypeVar\assign.cpp">
+      <Filter>Utility\TypeVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TypeVar\ctor.cpp">
+      <Filter>Utility\TypeVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TypeVar\dynamic.cpp">
+      <Filter>Utility\TypeVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TypeVar\relational.cpp">
+      <Filter>Utility\TypeVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\TypeVar\types.cpp">
+      <Filter>Utility\TypeVar</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\initialization.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\main.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\run.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Algorithm.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\Termination.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\CMAES\CMAES_.cpp">
+      <Filter>Algorithm\CMAES</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\objectFactory.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\DMOEA\dmoeafunc.cpp">
+      <Filter>Algorithm\MOEAD</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm\DMOEA\dmoeaclass.cpp">
+      <Filter>Algorithm\MOEAD</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem\FFreePeak.cpp">
+      <Filter>Problem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Problem\FFreePeak_D_M_OnePeak.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\FFreePeak_D_OnePeak.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\FFreePeak_OnePeak.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\CMAES\cmaes.h">
+      <Filter>Algorithm\CMAES</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\CMAES\cmaes_interface.h">
+      <Filter>Algorithm\CMAES</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\kdtree_space.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\matrix.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\myexcept.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\myVector.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\boundary.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\encoding.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Global\solution.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Random\extreal.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Random\newran.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\definition.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\include.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Measure\mMultiModal.h">
+      <Filter>Measure</Filter>
+    </ClInclude>
+    <ClInclude Include="Measure\mMultiObj.h">
+      <Filter>Measure</Filter>
+    </ClInclude>
+    <ClInclude Include="Measure\mSingleObj.h">
+      <Filter>Measure</Filter>
+    </ClInclude>
+    <ClInclude Include="Measure\mSingleObjDyn.h">
+      <Filter>Measure</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\BenchmarkFunction.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\ContinuousProblem.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\FOnePeak.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\optimum.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\problem.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\FFreePeak_M_OnePeak.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeVar\typeVar.h">
+      <Filter>Utility\TypeVar</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeList\NullType.h">
+      <Filter>Utility\TypeList</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeList\Typelist.h">
+      <Filter>Utility\TypeList</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeList\TypelistMacros.h">
+      <Filter>Utility\TypeList</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\TypeList\TypeManip.h">
+      <Filter>Utility\TypeList</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\initialization.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\run.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\test.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\types.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\Algorithm.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\Termination.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\CMAES\CMAES_.h">
+      <Filter>Algorithm\CMAES</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\objectFactory.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\DMOEA\dmoeaclass.h">
+      <Filter>Algorithm\MOEAD</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\DMOEA\dmoeafunc.h">
+      <Filter>Algorithm\MOEAD</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm\DMOEA\recombination.h">
+      <Filter>Algorithm\MOEAD</Filter>
+    </ClInclude>
+    <ClInclude Include="Problem\FFreePeak.h">
+      <Filter>Problem</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

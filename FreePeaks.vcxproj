@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{198085CF-DC24-4D81-9954-0FF2CB01A58E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FreePeaks</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(BOOST_INC_1_60)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Algorithm\Algorithm.cpp" />
+    <ClCompile Include="Algorithm\CMAES\cmaes.cpp" />
+    <ClCompile Include="Algorithm\CMAES\CMAES_.cpp" />
+    <ClCompile Include="Algorithm\DMOEA\dmoeaclass.cpp" />
+    <ClCompile Include="Algorithm\DMOEA\dmoeafunc.cpp" />
+    <ClCompile Include="Algorithm\Termination.cpp" />
+    <ClCompile Include="Global\boundaryCont.cpp" />
+    <ClCompile Include="Global\global.cpp" />
+    <ClCompile Include="Measure\mMultiModal.cpp" />
+    <ClCompile Include="Measure\mMultiObj.cpp" />
+    <ClCompile Include="Measure\mSingleObj.cpp" />
+    <ClCompile Include="Measure\mSingleObjDyn.cpp" />
+    <ClCompile Include="Problem\BenchmarkFunction.cpp" />
+    <ClCompile Include="Problem\ContinuousProblem.cpp" />
+    <ClCompile Include="Problem\FFreePeak.cpp" />
+    <ClCompile Include="Problem\FFreePeak_D_M_OnePeak.cpp" />
+    <ClCompile Include="Problem\FFreePeak_D_OnePeak.cpp" />
+    <ClCompile Include="Problem\FFreePeak_OnePeak.cpp" />
+    <ClCompile Include="Problem\FOnePeak.cpp" />
+    <ClCompile Include="Problem\FFreePeak_M_OnePeak.cpp" />
+    <ClCompile Include="Problem\problem.cpp" />
+    <ClCompile Include="Random\extreal.cpp" />
+    <ClCompile Include="Random\newran.cpp" />
+    <ClCompile Include="Test\initialization.cpp" />
+    <ClCompile Include="Test\main.cpp" />
+    <ClCompile Include="Test\run.cpp" />
+    <ClCompile Include="Utility\matrix.cpp" />
+    <ClCompile Include="Utility\myVector.cpp" />
+    <ClCompile Include="Utility\objectFactory.cpp" />
+    <ClCompile Include="Utility\TypeVar\arithmetic.cpp" />
+    <ClCompile Include="Utility\TypeVar\assign.cpp" />
+    <ClCompile Include="Utility\TypeVar\ctor.cpp" />
+    <ClCompile Include="Utility\TypeVar\dynamic.cpp" />
+    <ClCompile Include="Utility\TypeVar\relational.cpp" />
+    <ClCompile Include="Utility\TypeVar\types.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithm\Algorithm.h" />
+    <ClInclude Include="Algorithm\CMAES\cmaes.h" />
+    <ClInclude Include="Algorithm\CMAES\CMAES_.h" />
+    <ClInclude Include="Algorithm\CMAES\cmaes_interface.h" />
+    <ClInclude Include="Algorithm\DMOEA\dmoeaclass.h" />
+    <ClInclude Include="Algorithm\DMOEA\dmoeafunc.h" />
+    <ClInclude Include="Algorithm\DMOEA\recombination.h" />
+    <ClInclude Include="Algorithm\Termination.h" />
+    <ClInclude Include="Global\boundary.h" />
+    <ClInclude Include="Global\encoding.h" />
+    <ClInclude Include="Global\global.h" />
+    <ClInclude Include="Global\solution.h" />
+    <ClInclude Include="Measure\mMultiModal.h" />
+    <ClInclude Include="Measure\mMultiObj.h" />
+    <ClInclude Include="Measure\mSingleObj.h" />
+    <ClInclude Include="Measure\mSingleObjDyn.h" />
+    <ClInclude Include="Problem\BenchmarkFunction.h" />
+    <ClInclude Include="Problem\ContinuousProblem.h" />
+    <ClInclude Include="Problem\FFreePeak.h" />
+    <ClInclude Include="Problem\FFreePeak_D_M_OnePeak.h" />
+    <ClInclude Include="Problem\FFreePeak_D_OnePeak.h" />
+    <ClInclude Include="Problem\FFreePeak_OnePeak.h" />
+    <ClInclude Include="Problem\FOnePeak.h" />
+    <ClInclude Include="Problem\FFreePeak_M_OnePeak.h" />
+    <ClInclude Include="Problem\optimum.h" />
+    <ClInclude Include="Problem\problem.h" />
+    <ClInclude Include="Random\extreal.h" />
+    <ClInclude Include="Random\newran.h" />
+    <ClInclude Include="Test\initialization.h" />
+    <ClInclude Include="Test\run.h" />
+    <ClInclude Include="Test\test.h" />
+    <ClInclude Include="Test\types.h" />
+    <ClInclude Include="Utility\definition.h" />
+    <ClInclude Include="Utility\include.h" />
+    <ClInclude Include="Utility\kdtree_space.h" />
+    <ClInclude Include="Utility\matrix.h" />
+    <ClInclude Include="Utility\myexcept.h" />
+    <ClInclude Include="Utility\myVector.h" />
+    <ClInclude Include="Utility\objectFactory.h" />
+    <ClInclude Include="Utility\TypeList\NullType.h" />
+    <ClInclude Include="Utility\TypeList\Typelist.h" />
+    <ClInclude Include="Utility\TypeList\TypelistMacros.h" />
+    <ClInclude Include="Utility\TypeList\TypeManip.h" />
+    <ClInclude Include="Utility\TypeVar\typeVar.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

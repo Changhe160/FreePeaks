@@ -1,0 +1,21 @@
+#Below problem types defined in file "definition.h", add new types if needed 
+#SOP: single objective problem
+#MOP: multi-objective problem
+#DOP: dynamic optimization problem
+#MMP: multi-modal problem
+#SMP: single(uni) modal problem
+#ROOT: robust optimzation problem
+#CONT: continuous optimization problem
+#COMB: combinatorial optimization problem
+#TSP: travelling salesman problem
+#COP: constraint optimization problem
+#VRP: vehicle routing problem
+#TTP: timetabling problem
+#JSP: job shop problem
+#KOP: knapsack optimization problem
+#SAT: boolean satisfiability problem
+
+#algorithm_name   index_AlgList(see types.h)   4_problem_type
+#begin
+ALG_CMAES 0 CONT SOP MMP
+ALG_MOEAD 1 CONT MOP 

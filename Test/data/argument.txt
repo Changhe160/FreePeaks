@@ -1,0 +1,18 @@
+/************** Algorithms below have been tested****************/
+ NOTE:  Wording directory should be given by the formate of WD=; the default one will be used otherwise.
+
+1 CONT MMP SOP
+FUN_FreePeak_D_OnePeak 2 CONT MMP DOP SOP
+FUN_FreePeak_M_OnePeak 3 CONT MOP
+FUN_FreePeak_D_M_OnePeak 4 CONT MOP DOP
+
+
+
+argument without data file
+NT=1 NR=1 ND=10 PN=FUN_FreePeak_OnePeak AN=ALG_CMAES PS=100 ME=100000 NB=10
+NT=1 NR=1 ND=10 PN=FUN_FreePeak_M_OnePeak AN=ALG_MOEAD PS=100 ME=100000 NB=10
+
+
+argmument with data file
+
+NT=1 NR=1 ND=10 PN=FUN_FreePeak_OnePeak AN=ALG_CMAES PS=100 ME=100000 NB=10

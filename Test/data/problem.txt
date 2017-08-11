@@ -1,0 +1,26 @@
+#Below problem types defined in file definition.h  add new types if needed 
+#SOP: single objective problem
+#MOP: multi-objective problem
+#DOP: dynamic optimization problem
+#MMP: multi-modal problem
+#SMP: single(uni) modal problem
+#ROOT: robust optimzation problem
+#CONT: continuous optimization problem
+#COMB: combinatorial optimization problem
+#TSP: travelling salesman problem
+#COP: constraint optimization problem
+#VRP: vehicle routing problem
+#TTP: timetabling problem
+#JSP: job shop problem
+#KOP: knapsack optimization problem
+#SAT: boolean satisfiability problem
+#QAP: Quadratic Assignment Problem
+#MKP: Multidimensional Knapsack Problem
+
+#problem_name  index_ProList(see types.h)     problem_type
+#begin
+FUN_OnePeak 0 CONT SOP 
+FUN_FreePeak_OnePeak  1 CONT MMP SOP
+FUN_FreePeak_D_OnePeak 2 CONT MMP DOP SOP
+FUN_FreePeak_M_OnePeak 3 CONT MOP
+FUN_FreePeak_D_M_OnePeak 4 CONT MOP DOP
